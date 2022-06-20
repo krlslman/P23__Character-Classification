@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* font-family: 'Jost', sans-serif; */
+
+body {
+	margin: 0;
+	padding: 0;
+	/* display: inline-block;	 */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	background-color: rgb(39, 39, 46);
+}
+h1 {
+	color:rgb(219, 46, 46);
+	width: 95vw;
+	text-align: center;
+}
+.input {
+	font-family: 'Jost', sans-serif;
+	width: 400px;
+	margin: 15vh auto ;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 5px;
+	border-image: linear-gradient(to right bottom, #440d72, #9424f0, #4e296c);
+	border-image-slice: 1;
+	padding:  40px;
+	background-color:#6d07c1;
+}
+.input-text,.input-btn {
+	
+	border: none;
+	margin: 3px;
+	border-radius: 10vw;
+	height: 1.5rem;
+	padding: 5px;
+}
+.input-text {
+	width: 300px;
+}
+.input input:focus {
+	border-width:0px;
+	border:none;
+	outline:none;
+}
+.input-btn {
+	/* display: block; */
+	height: 2rem;
+	width: 4rem;
+	background-color: orangered;
+	color: bisque;
+}
+.input-btn:hover {
+	background-color: rgb(255, 0, 0);
+}
+
+.result {
+	font-family: 'Jost', sans-serif;
+	color: rgb(127, 120, 143);
+	/* text-align: center; */
+	
+	
+}
+.result span {
+
+}
+.result:not(span) {
+	font-weight: 100;
+	/* text-align: right; */
+}
+
+.result-ul{
+	list-style-type: none;
+	width: max-content;
+	text-align: right;
+	/* vertical-align: middle; */
+	margin: 0 auto;
+	padding-right: 40px;
+}
+
+.colon{
+	color: rgb(39, 39, 46);
+	tab-size: 2;
+	padding: 3vw;
+	text-align: center;
+}
+.result-value {
+	font-weight: 400;
+	color: #9740df;
+}
